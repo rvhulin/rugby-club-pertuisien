@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rugby Club Pertuisien</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6fb;
+      color: #17263a;
+    }
+    header {
+      background: #082b58;
+      color: white;
+      text-align: center;
+      padding: 30px 16px;
+    }
+    main {
+      max-width: 700px;
+      margin: 24px auto;
+      padding: 16px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 22px;
+      margin-bottom: 16px;
+      box-shadow: 0 3px 12px #0000000d;
+    }
+    button {
+      border: 0;
+      border-radius: 10px;
+      padding: 13px 18px;
+      margin: 5px;
+      background: #1467b2;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏉 Rugby Club Pertuisien</h1>
+    <p>Ensemble sur le terrain</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Bienvenue au RCP</h2>
+      <p>Retrouve ici les entraînements,
+         les matchs et les informations du club.</p>
+    </section>
+
+    <section class="card">
+      <h2>Mes présences</h2>
+      <p>La gestion des présences arrive bientôt.</p>
+      <button onclick="alert('Fonction à venir !')">
+        Espace joueur
+      </button>
+    </section>
+
+    <section class="card">
+      <h2>Administration</h2>
+      <p>La gestion du calendrier sera ajoutée ensuite.</p>
+    </section>
+  </main>
+</body>
+</html>
